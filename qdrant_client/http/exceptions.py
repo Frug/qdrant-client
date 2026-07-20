@@ -1,7 +1,7 @@
 from typing import Any, Dict, Optional
 
 from httpx import Headers, Response
-from qdrant_client._json import loads as json_loads
+from qdrant_client._json_backend import loads as json_loads
 
 MAX_CONTENT = 200
 

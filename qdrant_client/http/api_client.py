@@ -5,7 +5,7 @@ from urllib.parse import urljoin
 
 from httpx import AsyncClient, Client, Request, Response
 from pydantic import ValidationError
-from qdrant_client._json import loads as json_loads
+from qdrant_client._json_backend import loads as json_loads
 from qdrant_client.common.client_exceptions import ResourceExhaustedResponse
 from qdrant_client.http.api.aliases_api import AsyncAliasesApi, SyncAliasesApi
 from qdrant_client.http.api.beta_api import AsyncBetaApi, SyncBetaApi
